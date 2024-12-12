@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="top">
+        <h1>Magic Bus Form</h1>
+        </div>
+     <form action="https://api.web3forms.com/submit" method="POST" class="form-data">
+        <input type="hidden" name="access_key" value="df7c1ac7-92b5-4036-b935-cf73f4eeb1cc">
+           <label>Name:</label>
+           <input type="text" name="name"placeholder="Enter your name"><br><br>
+           <label for="">Email:</label>
+           <input type="email" name="email" placeholder="Enter your mail_id"><br><br>
+           <label for="">Contact_No:</label>
+           <input type="number" name="number" placeholder="Enter your mobile number"><br><br>
+           <label for="">Address:</label>
+           <input type="text" name="Address" placeholder="Enter your Address"><br>
+           
+           <label for="">Gender</label>
+           <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+           <button type="submit">submit</button>
+
+
+     </form>
+    </div>
+</body>
+</html>
